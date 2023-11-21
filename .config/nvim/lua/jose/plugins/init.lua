@@ -4,7 +4,7 @@ return {
   { "mbbill/undotree", keys = {
     { "<F4>", "<cmd>UndotreeToggle<cr>", desc = "undotree" },
   } },
-  "christoomey/vim-tmux-navigator", -- tmux & split window navigation
+  -- "christoomey/vim-tmux-navigator", -- tmux & split window navigation
 
   "inkarkat/vim-ReplaceWithRegister", -- replace with register contents using motion (gr + motion)
   {

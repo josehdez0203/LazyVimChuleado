@@ -118,7 +118,7 @@ return {
     })
 
     -- configure prisma orm server
-    lspconfig["prismals"].setup({
+    lspconfig["gopls"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
     })

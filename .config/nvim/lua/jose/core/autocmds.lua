@@ -8,6 +8,16 @@ vim.api.nvim_create_autocmd("TextYankPost", {
     vim.highlight.on_yank()
   end,
 })
+-- vim.api.nvim_create_autocmd("FileType", {
+--   pattern = {
+--     "sql",
+--     "mysql",
+--     "plsql",
+--   },
+--   callback = function()
+--     vim.schedule(db_completion)
+--   end,
+-- })
 
 -- vim.api.nvim_create_autocmd("FileType", {
 --   pattern = "http",
