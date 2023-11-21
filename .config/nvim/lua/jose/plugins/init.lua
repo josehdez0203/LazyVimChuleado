@@ -19,6 +19,23 @@ return {
   },
   },
   {
+    "voldikss/vim-floaterm",
+    lazy = false,
+    keys = {
+      { "n", "<F12>", ":FloatermToggle<CR>", desc = "FloatermToggle" },
+      { "t", "<F12>", "<C-\\><C-n>:FloatermToggle<CR>", desc = "FloatermToggle" },
+    },
+  },
+  {
+    "folke/zen-mode.nvim",
+    lazy = false,
+    dependencies = { "folke/twilight.nvim" },
+    keys = {
+      { "n", "<leader>zz", ":ZenMode<CR>", desc = "ZenMode" }, -- ZenMode
+      { "n", "<leader>zt", ":Twilight<CR>", desc = "Twilight" }, --Twilight
+    },
+  },
+  {
     "RRethy/vim-illuminate",
   },
   --   event = "LazyFile",

@@ -9,7 +9,4 @@ return {
       enable_autocmd = false,
     },
   },
-  keys = {
-    { "<C-.>", "gcc", desc = "Comentario" },
-  },
 }
