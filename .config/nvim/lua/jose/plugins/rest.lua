@@ -2,6 +2,11 @@ return {
   "rest-nvim/rest.nvim",
   lazy = false,
   dependencies = { "nvim-lua/plenary.nvim" },
+  keys = {
+    { "<space>mc", "<Plug>RestNvim", { desc = "RestNvim" } },
+    { "<space>mv", "<Plug>RestNvimPreview", { desc = "RestNvim Preview" } },
+    { "<space>ml", "<Plug>RestNvimLast", { desc = "RestNvim Last" } },
+  },
   config = function()
     require("rest-nvim").setup({
       -- Open request results in a horizontal split

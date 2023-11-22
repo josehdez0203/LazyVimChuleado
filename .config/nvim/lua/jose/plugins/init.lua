@@ -38,6 +38,15 @@ return {
   {
     "RRethy/vim-illuminate",
   },
+  {
+    "gen740/SmoothCursor.nvim",
+    config = function()
+      require("smoothcursor").setup({
+        type = "fancy",
+        fancy = { enable = true },
+      })
+    end,
+  },
   --   event = "LazyFile",
   --   opts = {
   --     delay = 200,
